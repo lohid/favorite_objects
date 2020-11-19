@@ -23,8 +23,8 @@ CLASS ztest_abap_git IMPLEMENTATION.
 
     rv_result = iv_num1 + iv_num2.
 
-check this.
-class. method
+"check this.
+"class. method
 
 		
 
