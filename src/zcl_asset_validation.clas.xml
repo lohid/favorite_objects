@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ASSET_VALIDATION</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>class to validate different fields in asset accounting</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ASSET_VALIDATION</CLSNAME>
+     <CMPNAME>CHANGE_ITAB_STATUS_BUILD_SMMRY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change internal table status and build summary message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ASSET_VALIDATION</CLSNAME>
+     <CMPNAME>GET_VALIDATING_FIELDNAMES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get name range of all the fields that need to be validated</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
